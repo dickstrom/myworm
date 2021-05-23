@@ -1,28 +1,30 @@
 <!DOCTYPE html>
-<html id="grad1"> 
-<style>
+<html id="grad1">
 
- #grad1 {
-     height: 100%;
-  background-color: rgb(12, 78, 16); /* For browsers that do not support gradients */
-  background-image: linear-gradient(to bottom right, rgb(12, 78, 16), rgb(174, 238, 169));
- } </style> 
+<head>
+  <script src="script.js"> </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-     <title>
-        The Rocketman 
-    </title>  
-
- </head>
-   
 <body>
-<center>
-<h1>The journey to moon and back</h1>
-<p id="crawl"></p>
-<script src="script.js"> 
-</script>
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/zsJpUCWfyPE">
-</iframe>
-</center>
+  <center>
+    <h1>The launch</h1>
+  </center>
+  <div class="row">
+    <div class="column1" style="background-color:rgb(221, 220, 231);">
+      <iframe width="100%" height="300px" src="https://www.youtube.com/embed/zsJpUCWfyPE">
+      </iframe>
+      </p>
+    </div>
+    <div class="column2" style="background-color:rgb(221, 220, 231);">
+      <center>
+        <h2>Javascript function</h2>
+      </center>
+      <p>The NASA rocket will orbit the moon before the landing.</p>
+      <p id="moon">What is going on here?</p>
+      <button onclick="myFunction()">Click me and find out.</button>
+    </div>
+  </div>
 </body>
+
 </html>
