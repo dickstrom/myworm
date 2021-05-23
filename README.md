@@ -1,2 +1,1 @@
-# myworm
-This is a traning and testing invoronment to improve.
+What I´m trying to do is to makke changes with javascript.
