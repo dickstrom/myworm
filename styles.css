@@ -27,6 +27,18 @@ p {
   width: 45%;
   height: 100%;
 }
+.column3 {
+  padding: 2%;
+  float: right;
+  width: 45%;
+  height: 100%;
+}
+.column4 {
+  padding: 2%;
+  float: right;
+  width: 45%;
+  height: 100%;
+}
 
 .row {
   width: 100%;
