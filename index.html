@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <html id="grad1">
-
 <head>
   <script src="script.js"> </script>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body>l
   <center>
     <h1>Programming</h1>
+    <input type="date" id="start" name="trip-start"
+       value="2021-06-09">
   </center>
   <div class="row">
-    <div class="column1" style="background-color:rgb(0, 0, 0);">
+    <div class="column1">
       <iframe width="100%" height="300px" src="https://www.youtube.com/embed/PkZNo7MFNFg">
       </iframe>
       </p>
     </div>
-    <div class="column2" style="background-color:rgb(79, 69, 190);">
+    <div class="column2">
       <center>
         <h2>My first Javascript button</h2>
       </center>
       <p>This is a story about how I learn Javascript</p>
-      <p id="moon">Can this teech me JS?</p>
+      <p id="moon">Can this teach me JS?</p>
       <button onclick="one()">Find out.</button>
     </div>
-    <div class="column3" style="background-color:rgb(100, 95, 155);">
+    <div class="column3">
       <center>
         <h2>Javascript is used in the background</h2>
       </center>
@@ -34,9 +35,11 @@
     </div>   
     </div>
   </div>
-  <div class="column1" style="background-color:rgb(248, 248, 248);">
-    <p>my age in dogyears from codecademy</p>
-    </p>
+  <div class="column4">
+    <p>Your age in dogyears!!</p>
+    <input type="text" id="age">
+    <button onclick="ageInDogYears()">Calculate</button>
+    <p id="dogYears"></p>
   </div>
 </body>
 </html>

@@ -4,19 +4,13 @@ function one() {
 function two() {
     document.getElementById("js").innerHTML = "No not really, but in the beginning they saw that there was a need for a language that was approachable, that you could put directly in the web page.";
 }
+function ageInDogYears() {
+    console.log("Your age in dogyears");
+    let age = document.getElementById("age").value;
+    const firstYear = 14;
+    let yearsToCount = age -1
+    let remainingYears = yearsToCount * 7;
+    let dogYears = firstYear + remainingYears;
+    document.getElementById("dogYears").innerHTML = dogYears;
+}
 
-
-
-//my age in dogyears from codecademy
-const myAge = 52;
-let earlyYears = 2;
-earlyYears *= 10,5;
-let laterYears = myAge - 2;
-laterYears *=4;
-console.log(earlyYears);
-console.log(laterYears);
-let myAgeInDogYears = earlyYears + laterYears;
-let myName = "Dick"
-console.log(`My name is ${myName}.
-           I am ${myAge} years old in human years 
-           which is ${myAgeInDogYears} years old in dog years.`);

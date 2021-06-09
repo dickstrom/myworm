@@ -11,10 +11,11 @@ p {
   height: 100%;
   background-color: rgb(69, 57, 238);
   /* For browsers that do not support gradients */
-  background-image: linear-gradient(to bottom right, rgb(33, 36, 241), rgb(106, 106, 241));
+  background-image:  linear-gradient(to bottom right, rgb(33, 36, 241), rgb(106, 106, 241));
 }
 
 .column1 {
+  background-color:rgb(0, 0, 0);
   padding: 2%;
   float: left;
   width: 45%;
@@ -22,20 +23,23 @@ p {
 }
 
 .column2 {
+  background-color:rgb(79, 69, 190);
   padding: 2%;
   float: right;
   width: 45%;
   height: 100%;
 }
 .column3 {
+  background-color:rgb(100, 95, 155);
   padding: 2%;
   float: right;
   width: 45%;
   height: 100%;
 }
 .column4 {
+  background-color:rgb(113, 115, 122);
   padding: 2%;
-  float: right;
+  float: left;
   width: 45%;
   height: 100%;
 }
